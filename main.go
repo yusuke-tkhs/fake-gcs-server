@@ -107,7 +107,7 @@ func objectsFromBucket(localBucketPath, bucketName string) ([]fakestorage.Object
 				ObjectAttrs: fakestorage.ObjectAttrs{
 					ACL: []storage.ACLRule{
 						{
-							Entity: "projectOwner-test-project",
+							Entity: "allUsers",
 							Role:   "OWNER",
 						},
 					},

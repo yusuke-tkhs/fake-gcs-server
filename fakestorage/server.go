@@ -354,7 +354,7 @@ func objectsFromBucket(localBucketPath, bucketName string) ([]Object, error) {
 				ObjectAttrs: ObjectAttrs{
 					ACL: []storage.ACLRule{
 						{
-							Entity: "projectOwner-test-project",
+							Entity: "allUsers",
 							Role:   "OWNER",
 						},
 					},

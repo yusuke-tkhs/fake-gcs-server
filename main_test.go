@@ -51,7 +51,7 @@ func TestGenerateObjectsFromFiles(t *testing.T) {
 					ObjectAttrs: fakestorage.ObjectAttrs{
 						ACL: []storage.ACLRule{
 							{
-								Entity: "projectOwner-test-project",
+								Entity: "allUsers",
 								Role:   "OWNER",
 							},
 						},
@@ -72,7 +72,7 @@ func TestGenerateObjectsFromFiles(t *testing.T) {
 					ObjectAttrs: fakestorage.ObjectAttrs{
 						ACL: []storage.ACLRule{
 							{
-								Entity: "projectOwner-test-project",
+								Entity: "allUsers",
 								Role:   "OWNER",
 							},
 						},
@@ -86,7 +86,7 @@ func TestGenerateObjectsFromFiles(t *testing.T) {
 					ObjectAttrs: fakestorage.ObjectAttrs{
 						ACL: []storage.ACLRule{
 							{
-								Entity: "projectOwner-test-project",
+								Entity: "allUsers",
 								Role:   "OWNER",
 							},
 						},
@@ -100,7 +100,7 @@ func TestGenerateObjectsFromFiles(t *testing.T) {
 					ObjectAttrs: fakestorage.ObjectAttrs{
 						ACL: []storage.ACLRule{
 							{
-								Entity: "projectOwner-test-project",
+								Entity: "allUsers",
 								Role:   "OWNER",
 							},
 						},
@@ -128,7 +128,7 @@ func TestGenerateObjectsFromFiles(t *testing.T) {
 					ObjectAttrs: fakestorage.ObjectAttrs{
 						ACL: []storage.ACLRule{
 							{
-								Entity: "projectOwner-test-project",
+								Entity: "allUsers",
 								Role:   "OWNER",
 							},
 						},
@@ -142,7 +142,7 @@ func TestGenerateObjectsFromFiles(t *testing.T) {
 					ObjectAttrs: fakestorage.ObjectAttrs{
 						ACL: []storage.ACLRule{
 							{
-								Entity: "projectOwner-test-project",
+								Entity: "allUsers",
 								Role:   "OWNER",
 							},
 						},
@@ -156,7 +156,7 @@ func TestGenerateObjectsFromFiles(t *testing.T) {
 					ObjectAttrs: fakestorage.ObjectAttrs{
 						ACL: []storage.ACLRule{
 							{
-								Entity: "projectOwner-test-project",
+								Entity: "allUsers",
 								Role:   "OWNER",
 							},
 						},
@@ -170,7 +170,7 @@ func TestGenerateObjectsFromFiles(t *testing.T) {
 					ObjectAttrs: fakestorage.ObjectAttrs{
 						ACL: []storage.ACLRule{
 							{
-								Entity: "projectOwner-test-project",
+								Entity: "allUsers",
 								Role:   "OWNER",
 							},
 						},
